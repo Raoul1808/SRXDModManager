@@ -15,7 +15,7 @@ jobs:
     - name: Installing musl rust toolchain
       run: rustup target add x86_64-unknown-linux-musl
     - name: Build release
-      run: cargo build --bin SRXDModManager --target x86_64-unknown-linux-musl --release
+      run: cargo build --bin SRXDManager --target x86_64-unknown-linux-musl --release
     - name: Upload artifacts
       uses: actions/upload-artifact@v7
       with:
