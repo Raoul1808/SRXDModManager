@@ -20,5 +20,5 @@ jobs:
     - name: Upload artifacts
       uses: actions/upload-artifact@v7
       with:
-        name: SRXDModManager-linux-musl
-        path: target/x86_64-unknown-linux-musl/SRXDModManager
+        name: SRXDManager-linux-musl
+        path: target/x86_64-unknown-linux-musl/SRXDManager
